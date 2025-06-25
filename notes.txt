@@ -1,0 +1,25 @@
+create vite@latest
+npm install @chakra-ui/react@2.8.2 @emotion/react @emotion/styled framer-motion
+npm i react-router-dom
+npm i @chakra-ui/icons
+npm i react-icons
+npm i zustand 
+make changes in the vite.config.js file
+
+THE MAIN THING IS THAT YOU VISIT LOCAL HOST 5000 FOR YOUR API AND LOCALHOST 5173 FOR REACT APP, SO YOU PUT IT IN SUCH A WAY THAT YOU VISIT LOCALHOST 5000, YOU GET BOTH OF THEM 
+
+PUT THOSE THINGS IN THE SERVER.JS AND RUN npm build in front end(which gives a dist folder)
+
+BEFORE DEPLOYMENT, DELETE NODE_MODULES AND DIST FILE
+(in the package.json set NODE_ENV = development in npm run dev and create a build and start file with NODE_ENV = production in the start file)
+
+use express 4 so you can use the * without issues
+
+create a git repo and make it public and initialize the folder as a git repo(git init) in the root directory
+.gitignore for files
+
+click the icon that looks like a spider
+(the staged changes, click the + icon)
+Add a commit message and commit
+
+remember rafce snippet for giving code shortcuts
